@@ -340,7 +340,7 @@ export default function App() {
 
           <div className="mx-auto bg-[#495057] text-white rounded-xl shadow-lg p-6 mb-6 max-w-4xl hover:shadow-red-500 transition-shadow duration-300">
             <div className="flex flex-col md:flex-row items-start space-x-6">
-              <div className={` ${isMobile ? "h-80" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
+              <div className={` ${isMobile ? "h-80 mx-auto" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
                 <SharpImage 
                   src={weather_hub} 
                   width={isMobile ? 320 : 320} 
@@ -367,7 +367,7 @@ export default function App() {
 
           <div className="mx-auto bg-[#495057] text-white rounded-xl shadow-lg p-6 mb-6 max-w-4xl hover:shadow-red-500 transition-shadow duration-300">
             <div className="flex flex-col md:flex-row items-start space-x-6">
-              <div className={` ${isMobile ? "h-80" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
+              <div className={` ${isMobile ? "h-80 mx-auto" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
                 <SharpImage 
                   src={Blog_API} 
                   width={isMobile ? 320 : 320} 
@@ -395,7 +395,7 @@ export default function App() {
 
           <div className="mx-auto bg-[#495057] text-white rounded-xl shadow-lg p-6 mb-6 max-w-4xl hover:shadow-red-500 transition-shadow duration-300">
             <div className="flex flex-col md:flex-row items-start space-x-6">
-              <div className={` ${isMobile ? "h-80" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
+              <div className={` ${isMobile ? "h-80 mx-auto" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
                 <SharpImage 
                   src={todoApi} 
                   width={isMobile ? 320 : 320} 
@@ -422,7 +422,7 @@ export default function App() {
 
           <div className="mx-auto bg-[#495057] text-white rounded-xl shadow-lg p-6 mb-6 max-w-4xl hover:shadow-red-500 transition-shadow duration-300">
             <div className="flex flex-col md:flex-row items-start space-x-6">
-              <div className={`${isMobile ? "h-80" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
+              <div className={`${isMobile ? "h-80 mx-auto" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
                 <SharpImage 
                   src={shopFront} 
                   width={isMobile ? 320 : 320} 
@@ -447,7 +447,7 @@ export default function App() {
 
           <div className="mx-auto bg-[#495057] text-white rounded-xl shadow-lg p-6 mb-6 max-w-4xl hover:shadow-red-500 transition-shadow duration-300">
             <div className="flex flex-col md:flex-row items-start space-x-6">
-              <div className={` ${isMobile ? "h-80" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
+              <div className={` ${isMobile ? "h-80 mx-auto" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
                 <SharpImage 
                   src={galleryFront} 
                   width={isMobile ? 320 : 320} 
