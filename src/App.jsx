@@ -340,8 +340,14 @@ export default function App() {
 
           <div className="mx-auto bg-[#495057] text-white rounded-xl shadow-lg p-6 mb-6 max-w-4xl hover:shadow-red-500 transition-shadow duration-300">
             <div className="flex flex-col md:flex-row items-start space-x-6">
-              <div className={`w-full ${isMobile ? "h-96" : "w-80 h-96"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
-                <SharpImage src={weather_hub} width={isMobile ? 400 : 300} height={400} alt="WeatherHub Project" />
+              <div className={`w-full ${isMobile ? "h-80" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
+                <SharpImage 
+                  src={weather_hub} 
+                  width={isMobile ? 320 : 320} 
+                  height={isMobile ? 320 : 320} 
+                  alt="WeatherHub Project" 
+                  className="object-cover w-full h-full"
+                />
               </div>
 
               <div className="flex-1 pl-2">
@@ -361,8 +367,14 @@ export default function App() {
 
           <div className="mx-auto bg-[#495057] text-white rounded-xl shadow-lg p-6 mb-6 max-w-4xl hover:shadow-red-500 transition-shadow duration-300">
             <div className="flex flex-col md:flex-row items-start space-x-6">
-              <div className={`w-full ${isMobile ? "h-96" : "w-80 h-96"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
-                <SharpImage src={Blog_API} width={isMobile ? 400 : 300} height={400} alt="Blog Platform Project" />
+              <div className={`w-full ${isMobile ? "h-80" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
+                <SharpImage 
+                  src={Blog_API} 
+                  width={isMobile ? 320 : 320} 
+                  height={isMobile ? 320 : 320} 
+                  alt="Blog Platform" 
+                  className="object-cover w-full h-full"
+                />
               </div>
 
               <div className="flex-1 pl-2">
@@ -383,8 +395,14 @@ export default function App() {
 
           <div className="mx-auto bg-[#495057] text-white rounded-xl shadow-lg p-6 mb-6 max-w-4xl hover:shadow-red-500 transition-shadow duration-300">
             <div className="flex flex-col md:flex-row items-start space-x-6">
-              <div className={`w-full ${isMobile ? "h-96" : "w-80 h-96"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
-                <SharpImage src={todoApi} width={isMobile ? 400 : 300} height={400} alt="Todo App Project" />
+              <div className={`w-full ${isMobile ? "h-80" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
+                <SharpImage 
+                  src={todoApi} 
+                  width={isMobile ? 320 : 320} 
+                  height={isMobile ? 320 : 320} 
+                  alt="Todo App" 
+                  className="object-cover w-full h-full"
+                />
               </div>
               <div className="flex-1 pl-2">
                 <h3 className="text-xl font-bold mb-4">Todo App</h3>
@@ -404,8 +422,14 @@ export default function App() {
 
           <div className="mx-auto bg-[#495057] text-white rounded-xl shadow-lg p-6 mb-6 max-w-4xl hover:shadow-red-500 transition-shadow duration-300">
             <div className="flex flex-col md:flex-row items-start space-x-6">
-              <div className={`w-full ${isMobile ? "h-96" : "w-80 h-96"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
-                <SharpImage src={shopFront} width={isMobile ? 400 : 300} height={400} alt="Shop Front Project" />
+              <div className={`w-full ${isMobile ? "h-80" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
+                <SharpImage 
+                  src={shopFront} 
+                  width={isMobile ? 320 : 320} 
+                  height={isMobile ? 320 : 320} 
+                  alt="Shop Front Project" 
+                  className="object-cover w-full h-full"
+                />
               </div>
               <div className="flex-1 pl-2">
                 <h3 className="text-xl font-bold mb-4">Shop Front</h3>
@@ -423,8 +447,14 @@ export default function App() {
 
           <div className="mx-auto bg-[#495057] text-white rounded-xl shadow-lg p-6 mb-6 max-w-4xl hover:shadow-red-500 transition-shadow duration-300">
             <div className="flex flex-col md:flex-row items-start space-x-6">
-              <div className={`w-full ${isMobile ? "h-96" : "w-80 h-96"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
-                <SharpImage src={galleryFront} width={isMobile ? 400 : 300} height={400} alt="Gallery Front Project" />
+              <div className={`w-full ${isMobile ? "h-80" : "w-80 h-80"} rounded-lg overflow-hidden mb-4 md:mb-0`}>
+                <SharpImage 
+                  src={galleryFront} 
+                  width={isMobile ? 320 : 320} 
+                  height={isMobile ? 320 : 320} 
+                  alt="Gallery Front Project" 
+                  className="object-cover w-full h-full"
+                />
               </div>
               <div className="flex-1 pl-2">
                 <h3 className="text-xl font-bold mb-4">Gallery Front</h3>
